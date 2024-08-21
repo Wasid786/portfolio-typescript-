@@ -14,6 +14,7 @@ const classes: Array<ClassType> = [
     description:
       "The National Charitable Pathology Lab website offers comprehensive features, including authentication, home page, test booking, contact info, about us, nearest center locator, report downloads, and donation options, providing a seamless and user-friendly experience for all visitors.( https://nationalcharitablepathologylab.vercel.app/ ) ",
     image: image1,
+
   },
   {
     name: "Pet Market Place (Purrfect)",
@@ -47,9 +48,9 @@ type Props = {
 
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
-    <section id="ourclasses" className="w-full bg-primary-100 py-40">
+    <section id="projects" className="w-full bg-primary-100 py-40">
       <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Projects)}
       >
         <motion.div
           className="mx-auto w-5/6"

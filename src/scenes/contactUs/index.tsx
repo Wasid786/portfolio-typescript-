@@ -147,7 +147,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           >
             <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-sparkles">
               <img
-                className="w-ful md:w-[450px] h-[450px] "
+                className="w-full hidden sm:block md:w-[450px] h-[450px] "
                 alt="contact-us-page-graphic"
                 src={ContactUsPageGraphic}
               />
