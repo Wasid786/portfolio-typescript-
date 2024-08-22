@@ -1,5 +1,6 @@
 import Logo from "@/assets/my_logo.png";
 import { IconWrapper } from "./Icon";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,16 +16,20 @@ const Footer = () => {
 
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
-          <h4 className="font-bold">Links</h4>
-          <p className="my-5">Wasidansari5284@gmail.com</p>
-          <p className="my-5"> https://rb.gy/ix6ony </p>
-          <p>https://shorturl.at/jF9hz </p>
+          <h4 className=" my-2 font-bold">Projects Links</h4>
+
+          <a className="  hover:underline decoration-dotted decoration-black" href="https://rb.gy/jksr25">Resume </a> <br />
+          <a className="  hover:underline decoration-dotted decoration-black" href="https://rb.gy/ix6ony" > National Charitable Pathology Lab </a> <br />
+          <a className="  hover:underline decoration-dotted decoration-black" href="https://shorturl.at/RYoPF">Internship Certificate </a>
 
         </div>
-        <div className="mt-16 basis-1/4 md:mt-0">
-          <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">10/157  Cross Street Aligarh</p>
-          <p>(+91)9353436825</p>
+        <div className="mt-16 basis-1/4 md:mt-0 ">
+          <h4 className=" my-2 font-bold  ">Contact Us</h4>
+          <p className="  hover:underline decoration-dotted decoration-black">10/157 Cross Street Aligarh</p>
+          <a href="mailto:Wasidansari5284@gmail.com" className=" hover:underline decoration-dotted decoration-black">Wasidansari5284@gmail.com</a>
+
+          <a className=" hover:underline decoration-dotted decoration-black" href="tel:+91 9353436825">(+91) 9353436825</a>
+
         </div>
       </div>
     </footer>
